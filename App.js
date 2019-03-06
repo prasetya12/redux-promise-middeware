@@ -6,7 +6,8 @@ import {createStackNavigator,createAppContainer} from 'react-navigation'
 import Home from './src/screens/Home'
 
 const App = createStackNavigator({
-  Home
+  Home,
+  Setting
 },
 {
   initialRouteName:'Home'
